@@ -1,0 +1,15 @@
+﻿Build started 2016/11/16 下午 02:04:26.
+     1>Project "C:\Users\chshih5747\Documents\計圖學\計圖學_石\HW2\HW2\HW2.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp mesh.cpp scene.cpp view.cpp
+         main.cpp
+         mesh.cpp
+     1>mesh.cpp(43): error C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(211) : see declaration of 'fopen'
+         scene.cpp
+         view.cpp
+     1>Done Building Project "C:\Users\chshih5747\Documents\計圖學\計圖學_石\HW2\HW2\HW2.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.82
